@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <title>Hairdresser HANS</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- JavaScript files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+
+    <body>
+               <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark primary-color">
+
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="#">Hairdresser HANS</a>
+
+          <!-- Collapse button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Our services
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#appointment">Make an appointment</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About us</a>
+              </li>
+            </ul>
+            <!-- Links -->
+
+            <form class="form-inline">
+              <div class="md-form my-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              </div>
+            </form>
+          </div>
+          <!-- Collapsible content -->
+
+        </nav>
+        <!--/.Navbar-->
+
+        <div class="jumbotron-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100 img-fluid" src="https://i.pinimg.com/originals/96/2d/9a/962d9ab708a5f2998ae6538810d34b84.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 img-fluid" src="https://lh6.googleusercontent.com/proxy/BPv-C7-7YnNa6KwVW_C1etdKlmX-Xy_lZf6XKYcSkHD7h7punG9m-eA6SN90-7FyZ5uqTt0VMDHX8luGA5YFt0uECCIe=s0-d" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 img-fluid"  src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Second slide">
+                </div>
+
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+
+         <div class="container">
+
+            <hr class="line">
+
+            <div class="services" id="services">
+              <h1>Our services</h1>
+
+              <div class="row">
+                <div class="card col-md-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Styling
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                            <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                        </svg>
+                    </h5>
+                    <img class="img2" src="https://spy.com/wp-content/uploads/2020/05/best-mens-haircuts-featured-image.jpg?w=958&h=599&crop=1" class="card-img-top">
+                  </div>
+                </div>
+
+                <div class="card col-md-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Coloring
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-paint-bucket" viewBox="0 0 16 16">
+                          <path d="M6.192 2.78c-.458-.677-.927-1.248-1.35-1.643a2.972 2.972 0 0 0-.71-.515c-.217-.104-.56-.205-.882-.02-.367.213-.427.63-.43.896-.003.304.064.664.173 1.044.196.687.556 1.528 1.035 2.402L.752 8.22c-.277.277-.269.656-.218.918.055.283.187.593.36.903.348.627.92 1.361 1.626 2.068.707.707 1.441 1.278 2.068 1.626.31.173.62.305.903.36.262.05.64.059.918-.218l5.615-5.615c.118.257.092.512.05.939-.03.292-.068.665-.073 1.176v.123h.003a1 1 0 0 0 1.993 0H14v-.057a1.01 1.01 0 0 0-.004-.117c-.055-1.25-.7-2.738-1.86-3.494a4.322 4.322 0 0 0-.211-.434c-.349-.626-.92-1.36-1.627-2.067-.707-.707-1.441-1.279-2.068-1.627-.31-.172-.62-.304-.903-.36-.262-.05-.64-.058-.918.219l-.217.216zM4.16 1.867c.381.356.844.922 1.311 1.632l-.704.705c-.382-.727-.66-1.402-.813-1.938a3.283 3.283 0 0 1-.131-.673c.091.061.204.15.337.274zm.394 3.965c.54.852 1.107 1.567 1.607 2.033a.5.5 0 1 0 .682-.732c-.453-.422-1.017-1.136-1.564-2.027l1.088-1.088c.054.12.115.243.183.365.349.627.92 1.361 1.627 2.068.706.707 1.44 1.278 2.068 1.626.122.068.244.13.365.183l-4.861 4.862a.571.571 0 0 1-.068-.01c-.137-.027-.342-.104-.608-.252-.524-.292-1.186-.8-1.846-1.46-.66-.66-1.168-1.32-1.46-1.846-.147-.265-.225-.47-.251-.607a.573.573 0 0 1-.01-.068l3.048-3.047zm2.87-1.935a2.44 2.44 0 0 1-.241-.561c.135.033.324.11.562.241.524.292 1.186.8 1.846 1.46.45.45.83.901 1.118 1.31a3.497 3.497 0 0 0-1.066.091 11.27 11.27 0 0 1-.76-.694c-.66-.66-1.167-1.322-1.458-1.847z"/>
+                        </svg>
+                    </h5>
+                    <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk946_Ts1mqt6d8ewLKKWkm39ikWN-UWyljw&usqp=CAU" class="card-img-top">
+                  </div>
+                </div>
+
+                <div class="card col-md-4">
+                  <div class="card-body">
+                    <h5 class="card-title">Haircuts
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-scissors" viewBox="0 0 16 16">
+                          <path d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61 3.5 3.5zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0zm7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0z"/>
+                        </svg>
+                    </h5>
+                    <img class="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh9fjiE8zNKbfvFVqP2o_507fH85JfQ1LwZ9dluEcoGFUwvBaQEMYOXqkU6ByzbV6Hcak&usqp=CAU" class="">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <hr class="line">
+             <div class="appointment" id="appointment">
+              <h1>Make an appointment</h1>
+                <div class="row">
+                    <div class="col-md">
+                        <input class="send" type="text" class="form-control" placeholder="First and last name">
+
+                        <input class="send" type="text" class="form-control mt-2" placeholder="Phone number">
+
+                        <input class="send" type="text" class="form-control mt-2" placeholder="Date">
+
+                        <textarea class="send2" placeholder="Other info" rows="5"></textarea>
+
+                        <input class="checkbox" type="checkbox" class="mt-3"> I agree that Hans is the best friseur! :)
+                        <br>
+
+                        <button class="btn btn-success center-block mt-3">Send</button>
+                    </div>
+
+
+                    <div class="col-md">
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Day</th>
+                                    <th>Working hours</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>8:00 - 16:00</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>10:00 - 18:00</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>8:00 - 16:00</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>8:00 - 16:00</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>12:00 - 20:00</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>8:00 - 16:00</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>8:00 - 12:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>* We don't work on holidays.</p>
+                    </div>
+                </div>
+             </div>
+
+             <hr class="line">
+
+             <div class="faq" id="faq">
+                <h1>FAQ</h1>
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Do you have gift certificates?
+                        </button>
+                      </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Can i bring my pet along
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          What awards did you reciev so far?
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+
+             <hr class="line">
+
+            <div class="about" id="about">
+              <h1>About us</h1>
+              <div class="row about-us">
+                  <div class="col-md-4">
+                      <h2>Contact</h2>
+                      <p>Hairdresser HANS</p>
+                      <p>Tax number: 65254624536</p>
+                      <p>Barber street 7</p>
+                      <p>Email: hans@hairdresser.com</p>
+                  </div>
+
+                  <div class="col-md-4">
+                      <img class="img-fluid" src="https://i.pinimg.com/originals/2a/b3/70/2ab370fac8414dfca442de5d049c3a38.png" alt="">
+                  </div>
+
+                  <div class="col-md-4">
+                    <h2>Navigation</h2>
+                      <ul>
+                          <li>
+                              <a href="#services">Our services</a>
+                          </li>
+                          <li>
+                              <a href="#appointment">Make an appointment</a>
+                          </li>
+                          <li>
+                              <a href="#faq">FAQ</a>
+                          </li>
+                          <li>
+                              <a href="#about" data-toggle="modal" data-target="#aboutModal">About us</a>
+                          </li>
+
+                      </ul>
+
+                  </div>
+
+              </div>
+                          <!-- About Modal -->
+                <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">About us</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores,
+                                    beatae consectetur eligendi eum facere fuga, illo impedit laudantium minima minus neque omnis possimus quasi quibusdam quos suscipit velit voluptates.
+                                </p>
+
+                                <p>
+                                    Quisque euismod placerat nisi, eget posuere mi tincidunt vitae. Vivamus vel ultrices nisi. Morbi
+                                    ac ullamcorper diam, quis vulputate arcu. Nam non viverra eros. Praesent scelerisque massa at
+                                    odio laoreet, ac convallis risus aliquam. Nunc ut lectus in urna tincidunt lobortis nec sed ipsum.
+                                    Fusce tincidunt urna vel augue vehicula scelerisque. Donec vel nunc lorem. Vivamus suscipit
+                                    gravida justo, ullamcorper blandit neque pharetra ut.
+                                </p>
+
+                                <img width="" class="img-fluid" src="https://www.salon-meri.si/wp-content/uploads/2018/10/Frizerstvo_meri_trzic_14.jpg" alt="hairdresser image 1">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END About Modal -->
+
+            </div>
+         </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>
